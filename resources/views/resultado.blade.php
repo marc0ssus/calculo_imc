@@ -11,13 +11,13 @@
     <main>
         <h2>Resultado do Cálculo de IMC</h2>
         <div>
-            <h2>{{$resultadoimc["nome"]}}</h2>
-            <p>Idade: {{$resultadoimc["idade"]}}</p>
-            <p>Peso: {{$resultadoimc["peso"]}}</p>
-            <p>Altura: {{$resultadoimc["altura"]}}</p>
-            <p>IMC: {{$resultadoimc["imc"]}} - {{$resultadoimc["classificacaoimc"]}}</p>
+            <h2>{{$resultadosaude["nome"]}}</h2>
+            <p>Idade: {{$resultadosaude["idade"]}}</p>
+            <p>Peso: {{$resultadosaude["peso"]}}</p>
+            <p>Altura: {{$resultadosaude["altura"]}}</p>
+            <p>IMC: {{$resultadosaude["imc"]}} - {{$resultadosaude["classificacaoimc"]}}</p>
+            <p>Horas de sono: {{$resultadosaude["sono"]}} - {{$resultadosaude["classificacaosono"]}}</p>
         </div>
-        <a href="{{url('/')}}">Voltar</a>
     </main>
 </body>
 </html>

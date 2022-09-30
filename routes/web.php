@@ -17,4 +17,4 @@ use App\http\Controllers\SaudeController;
 
 Route::get('/', [SaudeController::class, 'index']);
 
-Route::get('/imc', [SaudeController::class, 'imc']);
+Route::get('/saude', [SaudeController::class, 'saude']);

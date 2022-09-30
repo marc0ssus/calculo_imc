@@ -11,9 +11,9 @@ class SaudeController extends Controller
         return view('saude');
     }
 
-    public function imc() {
+    public function saude() {
         $saude = new Saude();
-        $resultadoimc = $saude->imc();
-        return view('resultado',compact('resultadoimc'));
+        $resultadosaude = $saude->resultado();
+        return view('resultado',compact('resultadosaude'));
     }
 }
